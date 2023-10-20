@@ -1,0 +1,8 @@
+Website = "https://github.com/able8/work-break-timer"
+
+[Details]
+  Icon = "Icon.png"
+  Name = "Work Break Timer"
+  ID = "com.github.able8.work-break-timer"
+  Version = "0.1.0"
+  Build = 2
