@@ -170,6 +170,7 @@ func startBreakTimer() {
 	// log.Println("start break ticker")
 	disableSystrayTimer()
 	a.SendNotification(fyne.NewNotification("Start Break Timer", "Start Break Timer"))
+	w.Content().Refresh()
 	w.Show()
 
 	duration := breakSeconds
@@ -187,6 +188,7 @@ func startBreakTimer() {
 		timerText.Refresh()
 		duration--
 		time.Sleep(time.Second)
+		w.Content().Refresh()
 	}
 }
 
